@@ -4,3 +4,4 @@ test jenkins 3
 test jenkins 4
 test jenkins 5
 test jenkins 6
+test jenkins 7
