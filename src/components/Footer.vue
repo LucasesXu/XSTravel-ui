@@ -1,7 +1,8 @@
 <template>
     <div class="footer">
       <p class="font-style">
-          author：***
+        <a href="#">关于我们</a>
+        <a href="#">联系我们</a>
       </p>
     </div>
 </template>

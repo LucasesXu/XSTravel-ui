@@ -1,6 +1,11 @@
 .position{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background: url('../img/bg.jpeg') center center no-repeat;
   background-size: cover;
 }
@@ -15,24 +20,26 @@
   width: 400px;
   height: 200px;
   position: absolute;
-  border: 0px;
+  border: 0;
   left: 50%;
   top: 50%;
   margin-left: -250px;
   margin-top: -100px;
   background-color: white;
+  z-index: 10;
 }
 
 .enroll-form{
   width: 400px;
   height: 304px;
   position: absolute;
-  border: 0px;
+  border: 0;
   left: 50%;
   top: 50%;
   margin-left: -200px;
   margin-top: -152px;
   background-color: white;
+  z-index: 10;
 }
 
 .form-position .login-h1,.enroll-h1{
@@ -69,7 +76,7 @@
   margin-right: 70px;
   width: 260px;
   height: 35px;
-  border: 0px;
+  border: 0;
   border-radius: 3px;
   background-color: #FFCC33;
   color: white;
@@ -110,14 +117,15 @@
   position: absolute;
   width: 99px;
   height: 200px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   border-left: #919191 solid 1px;
   left: 50%;
   top: 50%;
   margin-left: 150px;
   margin-top: -100px;
   background-color: white;
+  z-index: 10;
 }
 
 .other-pass span{
@@ -131,8 +139,8 @@
 }
 
 ul{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   float: left;
 }
 
